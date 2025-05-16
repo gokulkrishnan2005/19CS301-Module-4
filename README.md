@@ -1,36 +1,47 @@
 # 19CS301-Module-4
-ExNo.4a DICTIONARY- SIZE OF DICTIONARY
+ExNo.4a DICTIONARY- SORTING IN DICTIONARY
 ### AIM
-To write a  python program to print the size of dictionary using getsizeof() from sys module.
+To write a  program for Sorting the Keys and Values in alphabetical using Dictionary  value.
 ### ALGORITHM
 
 Step 1:	 Begin the program.
 
-Step 2:	  Import the sys module to access the getsizeof() function.
+Step 2:	  Create an empty dictionary d.
 
-Step 3:	 Define dictionaries with necessary values.
+Step 3:	 Insert key-value pairs into d.
 
-Step 4:	 Use sys.getsizeof(dic1) to get the size of dic1,dic2,dic3.
+Step 4:	 Return the dictionary d.
 
-Step 5:	  Print the size value of dic1, dic2,dic3.
+Step 5:	 Call the sorting() function to get the dictionary.
 
-Step 6:	 Terminate the program.
+Step 6:  Use sorted() on d.items() with a key that sorts by value, then by key.
+
+Step 7:  Print the sorted list of key-value tuples.
+
+Step 8:	 Terminate the program.
 
 ### PROGRAM
-```import sys
-dic1 = {"A": 1, "B": 2, "C": 3}
-dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
-dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
-print(f"Size of dic1: {sys.getsizeof(dic1)}bytes")
-print(f"Size of dic2: {sys.getsizeof(dic2)}bytes")
-print(f"Size of dic3: {sys.getsizeof(dic3)}bytes")
+```
+def sorting():
+    d={}
+    d[5]=12
+    d[1]=2
+    d[6]=18
+    d[3]=323
+    d[2]=56
+    d[4]=24
+    return d
+d=sorting()
+print("Keys and Values sorted in alphabetical order by the value")
+print(sorted(d.items(),key=lambda kv:(kv[1],kv[0])))
+    
 ```
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/c04d58b1-b6a9-4753-a88e-db8914bc73c6)
 
  
 ### RESULT
-Thus the python program for printing a size of dictionary, was implemented and executed successfully.
+Thus the python program for printing a sort in dictionary, was implemented and executed successfully.
 
 Exp.No:4(b)	EXCEPTION- EXCEPTION HANDLING
 ### AIM
