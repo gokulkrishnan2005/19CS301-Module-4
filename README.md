@@ -76,7 +76,7 @@ except:
         print("6 is not accepted")
 ```
 ### OUTPUT
- ![image](https://github.com/user-attachments/assets/86726500-ef3e-4a14-a878-cb7b5c0886c5)
+ ![image](https://github.com/gokulkrishnan2005/19CS301-Module-4/blob/main/12.png)
 
 ### RESULT
 Thus the python program for handling exceptions was implemented and executed successfully.
