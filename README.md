@@ -37,7 +37,7 @@ print(sorted(d.items(),key=lambda kv:(kv[1],kv[0])))
     
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/c04d58b1-b6a9-4753-a88e-db8914bc73c6)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-4/blob/main/11.png)
 
  
 ### RESULT
