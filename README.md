@@ -160,7 +160,7 @@ u=umbrella()
 u.rain(r)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/aa51e6ae-8312-4d49-85a6-774bfead5223)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-4/blob/main/13.png)
 
  
 ### RESULT
