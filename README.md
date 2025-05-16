@@ -192,7 +192,7 @@ for i in s.split():
 print("The obtained dictionary is d = ",d)
 ```
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/a3851f8f-c387-41ea-81b1-5806c381d653)
+![image](https://github.com/gokulkrishnan2005/19CS301-Module-4/blob/main/14.png)
  
 ### RESULT
 Thus the  dictionary whose keys are the words of the text entered and the values are the reverse of the words has been  implemented and executed successfully.
